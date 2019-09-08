@@ -16,11 +16,7 @@ export default class ThirdSection extends Component {
             <div className="row mb-5">
               <div className="card">
                 <Link to="/evento/villa-mix">
-                  <img
-                    className="card-img-top"
-                    src={villa}
-                    alt="Card image cap"
-                  />
+                  <img className="card-img-top" src={villa} alt="" />
                 </Link>
               </div>
             </div>
@@ -28,11 +24,7 @@ export default class ThirdSection extends Component {
             <div className="row mb-5">
               <div className="card">
                 <Link to="/evento/funn-festival">
-                  <img
-                    className="card-img-top"
-                    src={funn}
-                    alt="Card image cap"
-                  />
+                  <img className="card-img-top" src={funn} alt="" />
                 </Link>
               </div>
             </div>
@@ -40,11 +32,7 @@ export default class ThirdSection extends Component {
             <div className="row mb-5">
               <div className="card">
                 <Link to="/evento/federal-music">
-                  <img
-                    className="card-img-top"
-                    src={federal}
-                    alt="Card image cap"
-                  />
+                  <img className="card-img-top" src={federal} alt="" />
                 </Link>
               </div>
             </div>

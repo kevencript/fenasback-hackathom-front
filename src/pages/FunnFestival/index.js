@@ -23,7 +23,7 @@ export default class FunnFestival extends Component {
           <div className="col-12 ">
             <div className="row mb-5">
               <div className="card">
-                <img className="card-img-top" src={img} alt="Card image cap" />
+                <img className="" src={img} alt="" />
               </div>
             </div>
 

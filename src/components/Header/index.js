@@ -1,7 +1,5 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-
-import classnames from "classnames";
 import "./style.css";
 
 class Header extends Component {

@@ -1,8 +1,6 @@
 import React, { Component } from "react";
 import "./style.css";
 
-import image from "../../../../img/logo.png";
-
 export default class FirstSection extends Component {
   render() {
     return (
