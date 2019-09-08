@@ -23,10 +23,9 @@ class App extends Component {
           <Route path="/evento/villa-mix" component={VillaMix} />
           <Route path="/evento/funn-festival" component={FunnFestival} />
           <Route path="/evento/federal-music" component={FederalMusic} />
-          <Route path="/profile" component={perfil} />
-          <Route exact path="/profile/ingressos" component={listaIngressos} />
+          <Route exact path="/profile" component={perfil} />
 
-          <Footer />
+          <Route exact path="/profile/ingressos" component={listaIngressos} />
         </BrowserRouter>
       </div>
     );
