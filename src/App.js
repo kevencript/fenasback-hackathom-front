@@ -25,8 +25,7 @@ class App extends Component {
           <Route path="/evento/federal-music" component={FederalMusic} />
           <Route exact path="/profile" component={perfil} />
           <Route exact path="/profile/ingressos" component={listaIngressos} />
-
-          <Footer />
+          <Route exact path="/profile/ingressos" component={listaIngressos} />
         </BrowserRouter>
       </div>
     );
