@@ -9,9 +9,33 @@ export default class ThirdSection extends Component {
       <section id="home-third-section">
         <div className="container ">
           <div className="col-12">
-            <div className="row">
-              <div class="card">
-                <img class="card-img-top" src={villa} alt="Card image cap" />
+            <div className="row mb-5">
+              <div className="card">
+                <img
+                  className="card-img-top"
+                  src={villa}
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+
+            <div className="row mb-5">
+              <div className="card">
+                <img
+                  className="card-img-top"
+                  src={villa}
+                  alt="Card image cap"
+                />
+              </div>
+            </div>
+
+            <div className="row mb-5">
+              <div className="card">
+                <img
+                  className="card-img-top"
+                  src={villa}
+                  alt="Card image cap"
+                />
               </div>
             </div>
           </div>
