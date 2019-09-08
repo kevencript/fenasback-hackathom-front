@@ -8,7 +8,8 @@ export default class ThirdSection extends Component {
     return (
       <section id="home-third-section">
         <div className="container ">
-          <div className="col-12">
+          <h1 id="title-third-sec"> Você não pode perder</h1>
+          <div className="col-12 ">
             <div className="row mb-5">
               <div className="card">
                 <img

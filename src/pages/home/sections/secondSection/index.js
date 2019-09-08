@@ -30,7 +30,7 @@ export default class SecondSection extends Component {
               </div>
             </div>
 
-            <div className="row mt-3 mb-5">
+            <div className="row mt-3 ">
               <div className="col-4 justify-content-center text-center">
                 <img className="icon-expositive" src={culture}></img>
                 <small className="text-center">Cultura</small>

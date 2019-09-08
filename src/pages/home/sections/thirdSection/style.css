@@ -1,4 +1,8 @@
-.card-body {
-  height: 20px;
-  vertical-align: center;
+#home-third-section {
+  background-color: #f2f2f2;
+  padding-top: 50px;
+}
+
+#home-third-section #title-third-sec {
+  font-size: 20px;
 }
