@@ -31,10 +31,18 @@ export default class Perfil extends Component {
 
         <div className="col-12 div-list">
           <ul class="list-group">
-            <li class="list-group-item">Editar Perfil</li>
-            <li class="list-group-item">Alterar senha</li>
-            <li class="list-group-item">Central de Ajuda</li>
-            <li class="list-group-item">Sair</li>
+            <li class="list-group-item">
+              <i class="far fa-user mr-2"></i> Editar Perfil
+            </li>
+            <li class="list-group-item">
+              <i class="fas fa-lock mr-2"></i>Alterar senha
+            </li>
+            <li class="list-group-item">
+              <i class="far fa-question-circle mr-2"></i>Central de Ajuda
+            </li>
+            <li class="list-group-item">
+              <i class="fas fa-sign-out-alt mr-2"></i>Sair
+            </li>
           </ul>
         </div>
       </section>

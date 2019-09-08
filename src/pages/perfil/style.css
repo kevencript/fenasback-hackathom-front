@@ -20,6 +20,14 @@
   margin-bottom: 18%;
 }
 
+#perfil i {
+  margin-left: 8px;
+}
+
+#perfil li:hover {
+  background-color: #f7f7f7;
+}
+
 #perfil .nome {
   font-size: 19px;
 }
