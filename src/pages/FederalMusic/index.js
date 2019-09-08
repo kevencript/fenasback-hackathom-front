@@ -1,20 +1,20 @@
 import React, { Component } from "react";
-import img from "../../img/funn-clean.png";
+import img from "../../img/federal-clean.png";
 import { Link } from "react-router-dom";
 
 import "./style.css";
 
-export default class FunnFestival extends Component {
+export default class FederalMusic extends Component {
   render() {
     return (
-      <section id="villa-mix">
+      <section id="federal-music">
         <div id="fake-header">
           <div className="col-12">
             <Link to="/home">
               <i class="fas fa-arrow-left"></i>
             </Link>{" "}
             <h1 id="title-fake-header" className="text-center">
-              Funn Festival 2020
+              Federal Music 2020
             </h1>
           </div>
         </div>
@@ -33,18 +33,22 @@ export default class FunnFestival extends Component {
                 <b id="bold">Local:</b> Centro de Entretenimento Urbano (CEU)
                 Asbac.
                 <br />
-                <br /> As crianças poderão desfrutar de uma programação de
-                espetáculos e teatros, como Moana - Uma aventura no mar, O rei
-                leão e Patrulha canina. Para assistir as peças é cobrado apenas
-                a entrada no complexo, no valor de R$ 25, sendo R$ 20 revertidos
-                em consumação. Continua depois da publicidade O ambiente ainda é
-                pet friendly, ou seja, os bichinhos poderão circular livremente
-                pelo complexo.
                 <br />
+                Em 2020 essa sociedade transcendental se refugiou nos confins do
+                oceano, e no submundo aquático se reuniram com a esperança de
+                paz através da música, com uma identidade sonora própria e
+                única, união com outros povos, aceitando as diferenças e
+                evoluindo com amor. A diversidade e a união dos habitantes deram
+                nome a esse reino fantástico: OMNIA E do fundo do mar, eles
+                decidiram trazer uma mensagem de paz, amor, união e respeito
+                entre todos os seres do universo.
                 <br />
-                Os ingressos podem ser adquiridos pelos sites CEU - Asbac
-                (Centro de Entretenimento Urbando) e Ingresso rápido, variando
-                de acordo os lotes e as atrações.
+                <br /> Eles encontraram na música a maneira de tocas os corações
+                e transmitir a mensagem. Três representantes vieram com a missão
+                de disseminar essa mensagem: Altum, Spero e Unio. Venham fazer
+                parte dessa missão e tragam sua contribuição de boas vibrações
+                para essa celebração única. Sejam bem-vindos ao Federal Music
+                2020
               </h1>
 
               <div className="col-12 text-center mt-4 mb-1">

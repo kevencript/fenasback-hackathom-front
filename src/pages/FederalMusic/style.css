@@ -1,0 +1,36 @@
+#federal-music #fake-header {
+  height: 60px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+#federal-music {
+  background-color: #f2f2f2;
+}
+
+#federal-music #title-fake-header {
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+#federal-music .fa-arrow-left {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 16px;
+  font-size: 27px;
+}
+
+#federal-music #title-desc {
+  font-size: 20px;
+}
+
+#federal-music #text-desc {
+  font-size: 14px;
+  font-weight: 100;
+  width: 330px;
+}
+
+#federal-music #bold {
+  font-size: 14px;
+  font-weight: 600;
+}
