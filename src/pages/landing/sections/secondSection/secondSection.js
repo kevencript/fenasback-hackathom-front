@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 import "./style.css";
 
-import logo from "../../../../img/logo.png";
+import logo from "../../../../img/logo2.png";
 
 export default class SecondSection extends Component {
   render() {
