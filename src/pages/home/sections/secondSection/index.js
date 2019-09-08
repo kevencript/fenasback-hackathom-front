@@ -43,6 +43,7 @@ export default class SecondSection extends Component {
 
               <div className="col-4 justify-content-center text-center">
                 <img alt="" className="icon-expositive" src={spa}></img>
+                <br />
                 <small className="text-center">Spa</small>
               </div>
             </div>
