@@ -2,8 +2,8 @@
   background-color: #34337c;
   color: white;
   border-radius: 10px;
-  height: 40px;
-  width: 90%;
+  height: 43px;
+  width: 94%;
   padding-right: 40px;
   padding-left: 15px;
   margin-top: 15px;
@@ -21,7 +21,7 @@
   position: absolute;
   margin-top: 27px;
   margin-left: 133px;
-  color: white;
+  color: rgb(255, 255, 255, 0.9);
   font-size: 20px;
 }
 
