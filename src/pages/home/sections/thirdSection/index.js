@@ -1,5 +1,7 @@
 import React, { Component } from "react";
 import villa from "../../../../img/villa.png";
+import funn from "../../../../img/funn.png"
+import federal from "../../../../img/federal.png"
 
 import "./style.css";
 
@@ -24,7 +26,7 @@ export default class ThirdSection extends Component {
               <div className="card">
                 <img
                   className="card-img-top"
-                  src={villa}
+                  src={funn}
                   alt="Card image cap"
                 />
               </div>
@@ -34,7 +36,7 @@ export default class ThirdSection extends Component {
               <div className="card">
                 <img
                   className="card-img-top"
-                  src={villa}
+                  src={federal}
                   alt="Card image cap"
                 />
               </div>
