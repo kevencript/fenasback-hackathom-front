@@ -7,11 +7,10 @@ class Footer extends Component {
   render() {
     return (
       <section id="footer">
-        <footer className="page-footer font-small blue pt-4">
-
+        <footer className="page-footer font-small blue ">
           {/* Copyright */}
-          <div className="footer-copyright text-center py-3">
-            © 2019 Copyright - Centro de Entretenimento Urbano Asbac
+          <div className="footer-copyright text-center  py-3">
+            © 2019 Copyright - NewIT
           </div>
           {/* Copyright */}
         </footer>
