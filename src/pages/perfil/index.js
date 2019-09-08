@@ -32,10 +32,9 @@ export default class Perfil extends Component {
         <div className="col-12 div-list">
           <ul class="list-group">
             <li class="list-group-item">Editar Perfil</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
+            <li class="list-group-item">Alterar senha</li>
+            <li class="list-group-item">Central de Ajuda</li>
+            <li class="list-group-item">Sair</li>
           </ul>
         </div>
       </section>
