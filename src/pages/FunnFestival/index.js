@@ -7,7 +7,7 @@ import "./style.css";
 export default class FunnFestival extends Component {
   render() {
     return (
-      <section id="villa-mix">
+      <section style={{ paddingBottom: '50px' }} id="villa-mix">
         <div id="fake-header">
           <div className="col-12">
             <Link to="/home">

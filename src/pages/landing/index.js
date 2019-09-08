@@ -6,7 +6,7 @@ import ThirdSection from "./sections/thirdSection/thirdSection";
 export default class LandingPage extends Component {
   render() {
     return (
-      <div>
+      <div style={{ paddingBottom: '50px' }}>
         <FirstSection />
         <SecondSection />
         <ThirdSection />

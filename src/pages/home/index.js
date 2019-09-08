@@ -6,7 +6,7 @@ import ThirdSection from "./sections/thirdSection";
 export default class HomePage extends Component {
   render() {
     return (
-      <div>
+      <div style={{ paddingBottom: '50px' }}>
         <FirstSection />
         <SecondSection />
         <ThirdSection />

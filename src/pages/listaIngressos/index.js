@@ -24,7 +24,7 @@ export default class listaIngressos extends Component {
 
           {/* <!-- Modal --> */}
           <div class="modal fade" id="modalVilla" tabindex="-1" role="dialog" aria-labelledby="modalVillaTitle" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-dialog modal-dialog" role="document">
               <div style={{ width: '95%' }} class="modal-content mx-auto">
                 <div class="modal-header">
                   <h5 class="modal-title" id="modalVillaTitle">Apresente na entrada</h5>
