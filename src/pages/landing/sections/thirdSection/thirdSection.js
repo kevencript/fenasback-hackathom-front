@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom'
 
 import "./style.css";
 
@@ -27,9 +28,9 @@ export default class ThirdSection extends Component {
           <div className="row">
             <div className="col-md-12 col-lg-6 col-sm-12 text-center mb-3">
               <h1 className="title mb-3">Faça parte disso tudo!</h1>
-              <button className="btn button btn-primary ">
+              <Link to='/home' className="btn button btn-primary ">
                 Saiba mais <i class="fas fa-angle-double-right ml-1" />
-              </button>
+              </Link>
             </div>
           </div>
         </div>
