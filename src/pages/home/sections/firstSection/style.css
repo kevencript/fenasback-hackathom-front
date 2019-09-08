@@ -3,8 +3,28 @@
   color: white;
   border-radius: 10px;
   height: 40px;
-  padding-right: 30px;
-  padding-left: 10px;
+  width: 90%;
+  padding-right: 40px;
+  padding-left: 15px;
   margin-top: 15px;
+  border: transparent;
+  transition: all 0.3s;
+}
+
+#home-first-section input:focus {
+  box-shadow: -2px 5px 9px -8px rgba(0, 0, 0, 0.8);
+  transition: all 0.3s;
   outline: transparent;
+}
+
+#home-first-section #icon-search {
+  position: absolute;
+  margin-top: 27px;
+  margin-left: 133px;
+  color: white;
+  font-size: 20px;
+}
+
+#home-first-section #icon-search:hover {
+  cursor: pointer;
 }
