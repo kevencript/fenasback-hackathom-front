@@ -2,8 +2,6 @@ import React, { Component } from "react";
 
 import "./style.css";
 
-import astronauta from "../../../../img/astronauta.svg";
-
 export default class ThirdSection extends Component {
   render() {
     return (

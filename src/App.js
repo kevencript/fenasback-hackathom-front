@@ -5,6 +5,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import Header from "./components/Header/index";
 import LandingPage from "./pages/landing/index";
 import HomePage from "./pages/home/index";
+import VillaMix from "./pages/VillaMix/index";
 import Footer from "./components/Footer/index";
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
           <Header />
           <Route exact path="/" component={LandingPage} />
           <Route path="/home" component={HomePage} />
+          <Route path="/evento/villa-mix" component={VillaMix} />
           <Footer />
         </BrowserRouter>
       </div>
