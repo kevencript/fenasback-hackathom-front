@@ -10,6 +10,7 @@ import FunnFestival from "./pages/FunnFestival/index";
 import Footer from "./components/Footer";
 import perfil from "./pages/perfil";
 import FederalMusic from "./pages/FederalMusic";
+import listaIngressos from "./pages/listaIngressos";
 
 class App extends Component {
   render() {
@@ -23,6 +24,8 @@ class App extends Component {
           <Route path="/evento/funn-festival" component={FunnFestival} />
           <Route path="/evento/federal-music" component={FederalMusic} />
           <Route path="/profile" component={perfil} />
+          <Route exact path="/profile/ingressos" component={listaIngressos} />
+
           <Footer />
         </BrowserRouter>
       </div>
