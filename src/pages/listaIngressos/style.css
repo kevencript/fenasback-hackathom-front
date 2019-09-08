@@ -1,0 +1,41 @@
+#lista-ingressos #fake-header {
+  height: 60px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+#lista-ingressos {
+  background-color: #f2f2f2;
+}
+
+#lista-ingressos #title-fake-header {
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+#lista-ingressos .fa-arrow-left {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 16px;
+  font-size: 27px;
+}
+
+#lista-ingressos #title-desc {
+  font-size: 20px;
+}
+
+#lista-ingressos #text-desc {
+  font-size: 14px;
+  font-weight: 100;
+  width: 330px;
+}
+
+#lista-ingressos #bold {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ticket-icon{
+  font-size: 20px;
+  color: #35337d;
+}
