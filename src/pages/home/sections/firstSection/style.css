@@ -27,4 +27,22 @@
 
 #home-first-section #icon-search:hover {
   cursor: pointer;
+  color: rgb(255, 255, 255, 0.6);
+  transition: all 0.3s;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(255, 255, 255, 0.6);
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: rgb(255, 255, 255, 0.6);
+}
+
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: rgb(255, 255, 255, 0.6);
 }

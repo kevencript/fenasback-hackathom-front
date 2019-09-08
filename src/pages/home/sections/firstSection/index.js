@@ -9,7 +9,11 @@ export default class FirstSection extends Component {
           <div className="col-12 ">
             <div className="row justify-content-center">
               <i class="fas fa-search" id="icon-search"></i>
-              <input type="text" class="mb-5"></input>
+              <input
+                placeholder="Descubra mais..."
+                type="text"
+                class="mb-5"
+              ></input>
             </div>
           </div>
         </div>
