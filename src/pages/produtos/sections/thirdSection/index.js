@@ -28,7 +28,7 @@ export default class ThirdSection extends Component {
           />
           <h1 id="title-third-sec"> Confira nossos produtos!</h1>
           <div className="col-12 ">
-            <div className="row mb-5">
+            <div className="row mb-5 ">
               <div className="card">
                 <img className="card-img-top" src={vida} alt="" />
               </div>
