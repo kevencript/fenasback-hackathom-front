@@ -14,42 +14,11 @@ class Header extends Component {
     };
   }
 
-  handleScrollVisibility() {
-    const { prevScrollpos } = this.state;
-
-    const currentScrollPos = window.pageYOffset;
-    const visible = prevScrollpos > currentScrollPos;
-
-    this.setState({
-      prevScrollpos: currentScrollPos,
-      visible
-    });
-  }
-
-  handleScrollShadow() {
-    const navStatus = document.documentElement.scrollTop > 30;
-    this.setState({ navbarShadow: navStatus });
-  }
-
-  componentDidMount() {
-    window.onscroll = () => [
-      this.handleScrollShadow(),
-      this.handleScrollVisibility()
-    ];
-  }
-
   // JSX stuff
   render() {
     return (
       <section id="nav-bar">
-        <nav
-          className={classnames(
-            "navbar",
-            { "navbar--shadow": this.state.navbarShadow },
-            { "navbar--hidden": !this.state.visible },
-            "navbar-expand-lg"
-          )}
-        >
+        <nav className="navbar navbar-expand-lg">
           <div className="container ">
             <div className="mx-auto">
               <ul className="nav justify-content-between ">
