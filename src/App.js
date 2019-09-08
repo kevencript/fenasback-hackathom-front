@@ -11,6 +11,7 @@ import produtos from "./pages/produtos/index";
 import perfil from "./pages/perfil";
 import FederalMusic from "./pages/FederalMusic";
 import listaIngressos from "./pages/listaIngressos";
+import Esportes from "./pages/Esportes";
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
           <Route exact path="/profile" component={perfil} />
           <Route exact path="/produtos" component={produtos} />
           <Route exact path="/profile/ingressos" component={listaIngressos} />
+          <Route exact path="/esportes" component={Esportes} />
         </BrowserRouter>
       </div>
     );

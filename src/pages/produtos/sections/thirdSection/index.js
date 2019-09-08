@@ -1,10 +1,10 @@
-import React, { Component } from "react";
-import vida from "../../../../img/seguro_vida.png";
-import emprestimo from "../../../../img/emprestimo.png";
-import consorcio from "../../../../img/consorcio.png";
+import React, { Component } from 'react';
+import vida from '../../../../img/seguro_vida.png';
+import emprestimo from '../../../../img/emprestimo.png';
+import consorcio from '../../../../img/consorcio.png';
 
-import "./style.css";
-import { Link } from "react-router-dom";
+import './style.css';
+import { Link } from 'react-router-dom';
 
 export default class ThirdSection extends Component {
   render() {
@@ -14,7 +14,7 @@ export default class ThirdSection extends Component {
           <div className="col-12">
             <Link to="/home">
               <i class="fas fa-arrow-left"></i>
-            </Link>{" "}
+            </Link>{' '}
             <h1 id="title-fake-header" className="text-center">
               Nossos produtos
             </h1>
@@ -30,25 +30,19 @@ export default class ThirdSection extends Component {
           <div className="col-12 ">
             <div className="row mb-5">
               <div className="card">
-                <Link to="/evento/villa-mix">
-                  <img className="card-img-top" src={vida} alt="" />
-                </Link>
+                <img className="card-img-top" src={vida} alt="" />
               </div>
             </div>
 
             <div className="row mb-5">
               <div className="card">
-                <Link to="/evento/funn-festival">
-                  <img className="card-img-top" src={emprestimo} alt="" />
-                </Link>
+                <img className="card-img-top" src={emprestimo} alt="" />
               </div>
             </div>
 
             <div className="row mb-5">
               <div className="card">
-                <Link to="/evento/federal-music">
-                  <img className="card-img-top" src={consorcio} alt="" />
-                </Link>
+                <img className="card-img-top" src={consorcio} alt="" />
               </div>
             </div>
           </div>
