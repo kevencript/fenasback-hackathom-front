@@ -1,5 +1,10 @@
 import React, { Component } from "react";
 import { Link } from 'react-router-dom'
+import sandson from '../../../../img/sandson.png'
+import marta from '../../../../img/marta.png'
+import gabriel from '../../../../img/gabriel.png'
+import joao from '../../../../img/joao.png'
+import ze from '../../../../img/ze.png'
 
 import "./style.css";
 
@@ -27,10 +32,77 @@ export default class ThirdSection extends Component {
         <div className="container">
           <div className="row">
             <div className="col-md-12 col-lg-6 col-sm-12 text-center mb-3">
-              <h1 className="title mb-3">Faça parte disso tudo!</h1>
-              <Link to='/home' className="btn button btn-primary ">
-                Saiba mais <i class="fas fa-angle-double-right ml-1" />
-              </Link>
+              <h1 className="title mb-3">A equipe por trás</h1>
+              <img src={sandson} alt="" />
+              <p style={{ fontSize: "23px", color: "#fff" }}>
+                Sandson Azevedo
+                <br />
+                Coordenador da Pré-Aceleradora OopS na UDF Centro Universitário
+                <br />
+                <a target='_blank' style={{ color: '#fff', fontSize: '30px' }} className="text-decoration-none" href="https://www.linkedin.com/in/sandson-azevedo/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </p>
+
+              <img src={marta} alt="" />
+              <p style={{ fontSize: "23px", color: "#fff" }}>
+                Marta Soares
+                <br />
+                Bacharel em administração | Discente de Análise e Desenvolvimento de Sistemas
+                <br />
+                <a
+                  target='_blank'
+                  style={{ color: '#fff', fontSize: '30px' }}
+                  className="text-decoration-none"
+                  href="https://www.linkedin.com/in/marta-soares-87045bb8/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </p>
+
+              <img src={gabriel} alt="" />
+              <p style={{ fontSize: "23px", color: "#fff" }}>
+                Gabriel Braga Costa
+                <br />
+                Desenvolvedor full stack | Designer Gráfico
+                <br />
+                <a
+                  target='_blank'
+                  style={{ color: '#fff', fontSize: '30px' }}
+                  className="text-decoration-none"
+                  href="https://www.linkedin.com/in/gabriel-bragavera/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </p>
+
+              <img src={joao} alt="" />
+              <p style={{ fontSize: "23px", color: "#fff" }}>
+                João Brito
+                <br />
+                Desenvolvedor web
+                <br />
+                <a
+                  target='_blank'
+                  style={{ color: '#fff', fontSize: '30px' }}
+                  className="text-decoration-none"
+                  href="https://www.linkedin.com/in/jo%C3%A3o-brito-35596216a/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </p>
+
+              <img src={ze} alt="" />
+              <p style={{ fontSize: "23px", color: "#fff" }}>
+                José Lucas
+                <br />
+                Desenvolvedor full stack na Nestin
+                <br />
+                <a
+                  target='_blank'
+                  style={{ color: '#fff', fontSize: '30px' }}
+                  className="text-decoration-none"
+                  href="https://www.linkedin.com/in/jos%C3%A9-lucas-r-9aa257119/">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+              </p>
             </div>
           </div>
         </div>

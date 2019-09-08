@@ -61,8 +61,8 @@ textarea:focus {
 /* BREAKPOINTS  */
 /* extra  */
 @media (max-width: 576px) {
-  #third-sec img {
-    margin-bottom: 30%;
+  #third-sec p {
+    margin-bottom: 20%;
   }
 
   .captcha {
