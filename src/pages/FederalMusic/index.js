@@ -7,7 +7,7 @@ import "./style.css";
 export default class FederalMusic extends Component {
   render() {
     return (
-      <section id="federal-music">
+      <section style={{ paddingBottom: '50px' }} id="federal-music">
         <div id="fake-header">
           <div className="col-12">
             <Link to="/home">
