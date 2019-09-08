@@ -1,0 +1,87 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar .navbar {
+  background-image: linear-gradient(to right, #22215b, #35337d);
+  padding: 0;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 8%;
+  bottom: 0;
+  transition: top 0.5s;
+}
+
+#nav-bar .navbar--hidden {
+  transition: all 0.5s;
+  bottom: -100px;
+}
+
+#nav-bar .navbar--shadow {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 0.5s;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255, 0.5);
+  transition: all 0.5s;
+}
+
+.nav-link:hover {
+  color: rgb(255, 255, 255, 1);
+  transition: all 0.5s;
+}
+
+.nav-link .fas {
+  font-size: 30px;
+}
+
+.fa-bars {
+  font-size: 27px;
+  border-color: transparent;
+  color: rgb(255, 255, 255, 0.5);
+  transition: all 0.5s;
+}
+
+.fa-bars:hover {
+  color: rgb(255, 255, 255, 0.9);
+}
+.navbar-brand {
+  margin-left: 10px;
+}
+
+.navbar-brand h2 {
+  float: right;
+  color: rgb(255, 255, 255, 1);
+  font-family: "Josefin Sans", sans-serif;
+  margin-top: 14px;
+  margin-left: 5px;
+  font-size: 31px;
+}
+
+.navbar-brand img {
+  width: 100%;
+  max-width: 70px;
+  margin-top: 5px;
+}
+
+/* Extra Small */
+@media (max-width: 576px) {
+  .navbar-nav li a {
+    margin-left: 30px;
+  }
+}
+
+/* Small */
+@media (min-width: 576px) {
+  .navbar-nav li a {
+    margin-left: 30px;
+  }
+}
