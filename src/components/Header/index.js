@@ -26,8 +26,8 @@ class Header extends Component {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/assosiados">
-                    <i className="fas fa-users"></i>
+                  <Link className="nav-link" to="/produtos">
+                    <i class="fas fa-piggy-bank"></i>
                   </Link>
                 </li>
 
