@@ -1,0 +1,25 @@
+#sec-produtos {
+  background-color: #f2f2f2;
+}
+
+#sec-produtos #title-third-sec {
+  font-size: 20px;
+}
+
+#sec-produtos #fake-header {
+  height: 60px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+#sec-produtos #title-fake-header {
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+#sec-produtos .fa-arrow-left {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 16px;
+  font-size: 27px;
+}

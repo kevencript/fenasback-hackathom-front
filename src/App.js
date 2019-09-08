@@ -7,7 +7,7 @@ import LandingPage from "./pages/landing/index";
 import HomePage from "./pages/home/index";
 import VillaMix from "./pages/VillaMix/index";
 import FunnFestival from "./pages/FunnFestival/index";
-import Footer from "./components/Footer";
+import produtos from "./pages/produtos/index";
 import perfil from "./pages/perfil";
 import FederalMusic from "./pages/FederalMusic";
 import listaIngressos from "./pages/listaIngressos";
@@ -24,6 +24,7 @@ class App extends Component {
           <Route path="/evento/funn-festival" component={FunnFestival} />
           <Route path="/evento/federal-music" component={FederalMusic} />
           <Route exact path="/profile" component={perfil} />
+          <Route exact path="/produtos" component={produtos} />
           <Route exact path="/profile/ingressos" component={listaIngressos} />
         </BrowserRouter>
       </div>
