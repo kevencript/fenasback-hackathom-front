@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import villa from "../../../../img/villa.png";
-import funn from "../../../../img/funn.png"
-import federal from "../../../../img/federal.png"
+import funn from "../../../../img/funn.png";
+import federal from "../../../../img/federal.png";
 
 import "./style.css";
+import { Link } from "react-router-dom";
 
 export default class ThirdSection extends Component {
   render() {
@@ -14,31 +15,37 @@ export default class ThirdSection extends Component {
           <div className="col-12 ">
             <div className="row mb-5">
               <div className="card">
-                <img
-                  className="card-img-top"
-                  src={villa}
-                  alt="Card image cap"
-                />
+                <Link to="/evento/villa-mix">
+                  <img
+                    className="card-img-top"
+                    src={villa}
+                    alt="Card image cap"
+                  />
+                </Link>
               </div>
             </div>
 
             <div className="row mb-5">
               <div className="card">
-                <img
-                  className="card-img-top"
-                  src={funn}
-                  alt="Card image cap"
-                />
+                <Link to="/evento/funn-festival">
+                  <img
+                    className="card-img-top"
+                    src={funn}
+                    alt="Card image cap"
+                  />
+                </Link>
               </div>
             </div>
 
             <div className="row mb-5">
               <div className="card">
-                <img
-                  className="card-img-top"
-                  src={federal}
-                  alt="Card image cap"
-                />
+                <Link to="/evento/federal-music">
+                  <img
+                    className="card-img-top"
+                    src={federal}
+                    alt="Card image cap"
+                  />
+                </Link>
               </div>
             </div>
           </div>

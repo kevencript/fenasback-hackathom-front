@@ -14,7 +14,7 @@ export default class VillaMix extends Component {
               <i class="fas fa-arrow-left"></i>
             </Link>{" "}
             <h1 id="title-fake-header" className="text-center">
-              Vila Mix Brasília 2020
+              Funn Festival 2020
             </h1>
           </div>
         </div>
@@ -37,18 +37,18 @@ export default class VillaMix extends Component {
                 <b id="bold">Local:</b> Centro de Entretenimento Urbano (CEU)
                 Asbac.
                 <br />
-                <br /> Com o slogan ‘Música é Mix’ a edição 2020 do VillaMix
-                Festival Brasília promete mais uma vez entrar para a história
-                com um line-up de peso, uma mega estrutura e as maiores atrações
-                musicais da atualidade, que vão do sertanejo à música eletrônica
-                e do forró ao funk, reunindo em um só lugar grandes nomes como
-                Jorge & Mateus, Gusttavo Lima, Wesley Safadão, Alok, Xand Avião,
-                Simone & Simaria, Kevinho e JetLag e Jefferson Moraes.
+                <br /> As crianças poderão desfrutar de uma programação de
+                espetáculos e teatros, como Moana - Uma aventura no mar, O rei
+                leão e Patrulha canina. Para assistir as peças é cobrado apenas
+                a entrada no complexo, no valor de R$ 25, sendo R$ 20 revertidos
+                em consumação. Continua depois da publicidade O ambiente ainda é
+                pet friendly, ou seja, os bichinhos poderão circular livremente
+                pelo complexo.
                 <br />
-                <br /> Marcado para o dia 4 de maio, o VillaMix Festival vai
-                ocupar pela primeira vez o espaço interno do Centro de
-                Entretenimento Urbano (CEU) Asbac. Você não vai ficar de fora,
-                né? Adquira já o seu ingresso!
+                <br />
+                Os ingressos podem ser adquiridos pelos sites CEU - Asbac
+                (Centro de Entretenimento Urbando) e Ingresso rápido, variando
+                de acordo os lotes e as atrações.
               </h1>
 
               <div className="col-12 text-center mt-4 mb-1">

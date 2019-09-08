@@ -1,0 +1,36 @@
+#villa-mix #fake-header {
+  height: 60px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+#villa-mix {
+  background-color: #f2f2f2;
+}
+
+#villa-mix #title-fake-header {
+  font-size: 24px;
+  padding-top: 15px;
+}
+
+#villa-mix .fa-arrow-left {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 16px;
+  font-size: 27px;
+}
+
+#villa-mix #title-desc {
+  font-size: 20px;
+}
+
+#villa-mix #text-desc {
+  font-size: 14px;
+  font-weight: 100;
+  width: 330px;
+}
+
+#villa-mix #bold {
+  font-size: 14px;
+  font-weight: 600;
+}

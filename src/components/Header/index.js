@@ -54,30 +54,30 @@ class Header extends Component {
             <div className="mx-auto">
               <ul className="nav justify-content-between ">
                 <li className="nav-item">
-                  <a className="nav-link active" href="">
+                  <Link className="nav-link active" to="/">
                     <i class="fas fa-info-circle"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="">
+                  <Link className="nav-link" to="/assosiados">
                     <i className="fas fa-users"></i>
-                  </a>
+                  </Link>
                 </li>
 
                 <li className="nav-item">
-                  <a className="nav-link active" href="">
+                  <Link className="nav-link active" to="/home">
                     <i className="fas fa-home"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="">
+                  <Link className="nav-link" to="/profile/ingressos">
                     <i class="fas fa-ticket-alt"></i>
-                  </a>
+                  </Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="">
+                  <Link className="nav-link" to="/profile">
                     <i class="fas fa-user-cog"></i>
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
